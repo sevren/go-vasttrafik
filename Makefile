@@ -6,8 +6,8 @@ GOTEST=$(GOCMD) test
 BIN=go-vasttrafik
 # App specific Variables
 
-VT_KEY=
-VT_SECRET=
+VT_KEY=VEFVaVrnR9gaOLvNsvUx9OfRrksa
+VT_SECRET=v9wOBm6JAqf9Fu49TctNsRkU2RAa
 BASE_URL=https://api.vasttrafik.se/bin/rest.exe/v2
 
 all: build

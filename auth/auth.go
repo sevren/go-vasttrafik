@@ -18,7 +18,6 @@ type Config struct {
 	Secret string `env:"VT_SECRET"`
 }
 
-//{"scope":"am_application_scope default","token_type":"Bearer","expires_in":3600,"access_token":"ef819e18-a729-30c6-87b7-47ead1c731eb"}
 type token struct {
 	Scope       string `json:"scope"`
 	Type        string `json:"token_type"`
